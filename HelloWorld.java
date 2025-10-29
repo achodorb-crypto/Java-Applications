@@ -20,7 +20,7 @@ public class HelloWorld{
 		System.out.printf("My name is %s%n",name);
 		System.out.printf("Your balance is %c%.2f%n",symbol,deci);
 		System.out.printf("Is Java Fun? %b%n",isFun);
-		System.out.printf("Do you enjoy learning \"Java\"");
+		System.out.printf("Do you enjoy learning \"Java\"",isFun);
 		
 		
 			

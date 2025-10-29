@@ -1,0 +1,19 @@
+2.1
+a) An opening left brace and closing right brace
+b) if
+c) //
+d) space,tab and blank lines.
+e) keywords
+f) main
+g) System.out.println()
+   System.out.print()
+   System.out.printf()
+
+2.2
+a) False: this is because comments are non-executable lines of a code,so it will not show on the executed code.
+b) True: in java, all variables must be declared with a specific type(primitive and non-primitive) before they can be used,eg boolean isFun.
+c) False: java is case-sensitive (nuMbEr), so it therefore considers them to be different.
+d) False: the modulos/remainder operand can be used also with an integer and also a floating point.
+e) False: the arithmetic operators have different precedence/associativity.
+
+2.3
