@@ -17,3 +17,598 @@ d) False: the modulos/remainder operand can be used also with an integer and als
 e) False: the arithmetic operators have different precedence/associativity.
 
 2.3
+a) int c = (int);
+   int thisIsAVariable =(int);
+   int q76354;
+   int number = (int);
+b) System.out.print("Please enter an integer")
+c) Scanner input = new scanner(system.in)
+   int num1 = 56;
+   input.next int()
+d) System.out.println("This is a java program");
+e) System.out.printf("This is a java program %s%n");
+f) int num1!=7
+   System.out.printf("The variable number is not equal to 7");
+
+2.4
+a) if (c < 7) {
+       System.out.println("c is less than 7");
+   }
+b) if (c >= 7) {
+      System.out.println("c is equal to or greater than 7");
+   }
+
+2.5
+a) int num1 = 5;
+   int num2 = 6;
+   int nuM3 = 9;
+int product = nuM1*nuM2*nuM3
+
+b) Scanner input = new scanner(system.in);
+   input.next int()
+c) int x 
+   int y
+   int z
+d) System.out.print("Enter first integer");
+e)  x = input.next int()
+f) System.out.print("Enter second integer");
+g) y = input.next int()
+h) System.out.print("Enter third integer");
+i) z = input.next int()
+j) product = x*y*z;
+k) System.out.printf("The product is %d%n",x,y,z);
+
+2.6
+a) import java.util.scanner
+   public class Product
+   public static void main(String[] args) {
+    Scanner input = new scanner(system in);
+
+   int x = 45;
+   int y = 56;
+   int z = 90;
+System.out.print("Enter first integer");
+x = input.next int();
+System.out.print("Enter second integer");
+y = input.next int();
+System.out.print("Enter third integer");
+z = input.next int();
+
+product = x*y*z;
+System.printf("The product is %d%n",x,y,z);
+
+2.7
+a) Scanner
+b) If
+c) Execution statements
+d) Division and Remainder operator
+e) The multiplication,division and remainder
+f) Variable
+
+2.8
+a) System.out.print("Enter an integer:")
+b) int a;
+   int b;
+   int c;
+a = b*c;
+c) /* this program performs performs a sample payroll calculation */
+
+2.9
+a) True
+b) True
+c) False: if it doesn't have a parentheses it follows the precedence which must not generally be from left to right.
+d) False: h22; starts with a letter
+
+2.10
+a) x= 2
+b) value of 2+2 is 4
+c) x= ;doesn't include any  placeholder,so it's empty
+d) 2 + 3=5, 3+2=5
+   5=5
+
+2.11
+a) p=i+j+k+7; we added a value into it, to modify means to change or add
+d) value=input.nextint(); we added a string into the variable value
+
+2.12
+e
+
+2.13
+a) multiplication
+   division
+   addition
+   subtraction
+ans=15
+b) modulos
+   multiplication
+   addition
+   division
+   subtraction
+ans=3
+c) multiplication
+   division
+   addition
+   multiplication
+   multiplication
+ans=324
+
+2.14
+a) System.out.println("1,2,3,4");
+b) System.out.print("1,2,3,4");
+   System.out.print("1,2,3,4");
+   System.out.print("1,2,3,4");
+   System.out.print("1,2,3,4");
+c) System.out.printf("1,2,3,4%d%n");
+
+2.15
+importjava.util.Scanner;
+ 
+  public class Arithemetic {
+
+  public static void main(String[] args) {
+
+  Scanner input =new Scanner(System.in);
+
+System.out.print("Enter first integer: ");
+  num1 = input.nextInt();
+ 
+  System.out.print("Enter second integer:"); 
+  num2 = input.nextInt();
+
+            int sum = num1 + num2;
+		int product = num1 * num2;
+		int minus = num1 - num2;
+		int divide = num1/num2;
+            
+             System.out.println("Sum is .....%d",sum);
+             System.out.println("Product is .....%d",product);
+             System.out.println("Minus is .....%d",minus);
+             System.out.println("Division is .....%d",divide);
+    }
+ }
+}
+
+  
+ 
+2.16
+importjava.util.Scanner;
+ 
+  publicclassComparison
+  {
+  publicstatic voidmain(String[] args)
+  {
+  Scanner input =new Scanner(System.in);
+ 
+  intnumber1; 
+  intnumber2; 
+ 
+  System.out.print("Enter first integer: ");
+  number1 = input.nextInt();
+ 
+  System.out.print("Enter second integer:"); 
+  number2 = input.nextInt();
+  
+  if (number1>number2) {
+        System.out.println(number1 + "is larger");
+    else if (number2>number1) {
+        System.out.println(number2 + "is larger");
+    else {
+      System.out.println("the numbers are equal");
+   }
+  }
+}
+ 
+2.17
+importjava.util.Scanner;
+ 
+  public class ArithemeticSmallestandLargest {
+
+  public static void main(String[] args) {
+
+  Scanner input =new Scanner(System.in);
+
+System.out.print("Enter first integer: ");
+  num1 = input.nextInt();
+ 
+  System.out.print("Enter second integer:"); 
+  num2 = input.nextInt();
+
+ System.out.print("Enter third integer:"); 
+  num3 = input.nextInt();
+
+int sum = num1+num2+num3;
+int average = sum/3;
+int product = num1*num2*num3;
+
+int smallest = num3;
+if (num1 < smallest) {
+    smallest = num1;
+}
+if (num2 < smallest) {
+    smallest = num2;
+{
+
+int largest = num3;
+if (num1 < largest) {
+    largest = num1;
+}
+if (num2 < largest) {
+    largest = num2;
+}
+
+             System.out.println("Sum is .....%d",sum);
+             System.out.println("Product is .....%d",product);
+             System.out.println("Average is .....%d",average);
+             System.out.println("Smallest is .....%d",smallest);
+              System.out.println("Largest is .....%d",largest);
+    }
+ }
+}
+
+2.18
+public class ShapeWithAsterisks {
+    public static void main(String[] args) {
+//box
+System.out.println("Box:");
+System.out.println("*****");
+System.out.println("*    *:");
+System.out.println("*    *:");
+System.out.println("*    *:");
+System.out.println("*****");
+
+//oval
+System.out.println("\noval:");
+System.out.println(" *** ");
+System.out.println("*   *");
+System.out.println("*   *");
+System.out.println("*   *");
+System.out.println(" *** ");
+
+// Arrow
+System.out.println("\nArrow");
+System.out.println("  *  ");
+System.out.println(" *** ");
+System.out.println("***** ");
+System.out.println("  *  ");
+System.out.println("  *  ");
+
+//Diamond
+System.out.println("\nDiamond");
+System.out.println("   *  ");
+System.out.println("  *** ");
+System.out.println(" ***** ");
+System.out.println("******* ");
+System.out.println(" ***** ");
+System.out.println("  *** ");
+System.out.println("   * ");
+
+2.19
+System.out.printf("*%n**%n***%n****%n*****%n");
+*
+**
+***
+****
+*****
+
+2.20
+*
+***
+*****
+****
+**
+
+2.21
+*  ***  *****  ****  **
+
+2.22
+****
+*****
+****
+**
+
+2.23
+*
+***
+*****
+
+2.24
+import java.util.Scanner;
+
+public class LargestAndSmallestIntegers {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+ int largest = 10
+ int smallest = 4
+
+int >=5;
+int = 0;
+System.out.print("Enter an integer")
+int num = input.nextint();
+
+if (num>largest) {
+   largest = num;
+}
+if (num<smallest) {
+   smallest = num;
+}
+}
+
+System.out.println("Smallest is .....%d",smallest);
+System.out.println("Largest is .....%d",largest);
+    }
+}
+
+2.25
+import java.util.Scanner;
+
+public class  OddAndEven {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+ int odd = 1
+ int even = 0
+
+System.out.print("Enter an integer")
+int num = input.nextint();
+
+if (num%2==0) {
+   even = num;
+ System.out.println("number is even");
+}
+else {
+System.out.println("this number is odd");
+}
+
+2.26
+importjava.util.Scanner;
+ 
+  public class Multiples {
+
+  public static void main(String[] args) {
+
+  Scanner input =new Scanner(System.in);
+
+System.out.print("Enter first integer: ");
+  num1 = input.nextInt();
+ 
+  System.out.print("Enter second integer:"); 
+  num2 = input.nextInt();
+if (num2==0) {
+System.out.println("cannot divide by zero");
+}
+else if (num1 % num2 ==0) {
+System.out.println("is a multiple of num2");
+}
+else {
+System.out.println("is not a multiple of num2")
+}
+
+2.27
+public class CheckBoard {
+     public static void main(String[] args) {
+ for (int i=0; i<8; i++) {
+    for (int j=0; j<8; j++) {
+if ((i+j) % 2 == 0) {
+  System.out.print("*");
+}
+else {
+System.out.print(" ");
+  }
+   }
+System.out.println();
+}
+}
+
+2.28
+import java.util.Scanner;
+
+public class Circle {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+         System.out.printf("Enter the radius of the circle");
+         int radius = input.nextInt();
+   System.out.prntf("Diameter: %d%n", 2*radius);
+   System.out.prntf("Circumference: %.2f%n", 2*math.PI*radius);
+   System.out.prntf("Area: %.2f%n", 2*mathPI*radius*radius);
+
+2.29
+public class CharacterValues {
+   public int main(String[] args) 
+{System.out.printf("The character %c has the value %d%n, 'A', (int) 'A');
+{System.out.printf("The character %c has the value %d%n, 'B', (int) 'B');
+{System.out.printf("The character %c has the value %d%n, 'C', (int) 'C');
+{System.out.printf("The character %c has the value %d%n, 'a', (int) 'a');
+{System.out.printf("The character %c has the value %d%n, 'b', (int) 'b');
+{System.out.printf("The character %c has the value %d%n, 'c', (int) 'c');
+{System.out.printf("The character %c has the value %d%n, '0', (int) '0');
+{System.out.printf("The character %c has the value %d%n, '1', (int) '1');
+{System.out.printf("The character %c has the value %d%n, '2', (int) '2');
+{System.out.printf("The character %c has the value %d%n, '$', (int) '$');
+{System.out.printf("The character %c has the value %d%n, '*', (int) '*');
+{System.out.printf("The character %c has the value %d%n, '+', (int) '+');
+{System.out.printf("The character %c has the value %d%n, '/', (int) '/');
+{System.out.printf("The character %c has the value %d%n, ' ', (int) ' ');
+
+2.30
+import java.util.Scanner;
+
+public class Circle {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+System.out.print("Enter a five-digit integer:");
+int number = input.nextInt();
+ 
+int digit1 = number/10000;
+int digit2 = (number%10000) / 1000;
+int digit3 = (number%10000)/ 100;
+int digit4 = (number/100)/ 10;
+int digit5 = number%10;
+
+System.out.printf("%d %d %d %d %d%n", digit1,digit2,digit3,digit4,digit5);
+    }
+}
+
+2.31
+public class SquareAndCubes {
+	public static void main(String[] args) {
+System.out.printf("%s%10s%10s%n", "Number", "Square","Cube");
+ int i = 0;
+ int <=10;
+System.out.printf("%d%10d%10d%n", i,i*i,i*i*i);
+    }
+ }
+}
+
+2.32
+import java.util.Scanner;
+
+public class NegativePositiveZero {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+      
+       int positiveCount =0;
+       int negativeCount =0;
+       int zeroCount =0; 
+ 
+      int i=0;
+      int i<5; 
+System.out.print("Enter a number:")
+int number = input.nextInt();
+ 
+if (number>0) {
+   positiveCount =+1;
+   }
+else if (number < 0) {
+  negativeCount =+1;
+ } 
+else {
+  zerocount=+1;
+  }
+}
+ 
+System.out.println("Positive number:",positiveCount);
+System.out.println("Negative number:",negativeCount);
+System.out.println("Zero:",ZeroCount);
+
+}
+
+2.33
+
+public class BMICalculator{
+import java.util.Scanner;
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+System.out.print("Enter weight in pounds:");
+double weight= input.nextDouble();
+
+System.out.print("Enter height in pounds:");
+double height = input.nextDouble();
+
+double bmi = (weight*703)/ (height*height);
+
+System.out.printf("Your BMI is: %.2f%n", bmi);
+
+if (bmi<45) {
+  System.out.println("You are underwight.");
+  }
+else if (bmi < 75) {
+   System.out.println("You are normal.");
+  }
+else{
+  System.out.println("You are very much beautiful but you need to reduce a little bit,much love!!");
+    }
+  }
+}
+
+
+2.34
+import java.util.Scanner;
+public class PopulationGrowthCalculator{
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+System.out.print("Enter current world population:");
+long currentPopulation= input.nextlong();
+
+System.out.print("Enter annual growth rate (in %:");
+double growthRate = input.nextDouble();
+
+double growthRateDecimal = growthRate/100;
+
+int i=1;
+i=<=5;
+ long population = (long) (currentPopulation* Math.pow(1+growthRateDecimal, i));
+ System.out.println("Estimated population after" ,i"years:",population);
+         }
+    }
+}
+
+
+
+2.35
+import java.util.Scanner;
+public class CarPoolSavingsCalculator{
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+System.out.print("Enter total miles covered per day:");
+double milesPerDay = input.nextDouble();
+
+System.out.print("Enter cost of fuel per gallon:");
+double costPerGallon = input.nextDouble();
+
+System.out.print("Enter average miles per gallon:");
+double milesPerGallon = input.nextDouble();
+
+System.out.print("Enter cost of paring fees per day:");
+double parkingFees = input.nextDouble();
+
+System.out.print("Enter total cost of tolls per day:");
+double tollsPerDay = input.nextDouble();
+
+double dailyCost = (milesPerDay / milesPerGallon) * costPerGallon + parkingFees + tolls;
+
+System.out.printf("Your daily driving cost  is: $%.2f%n", dailyCost);
+   }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+   
+
+
+
+
+
+
+
+
+
+ 
