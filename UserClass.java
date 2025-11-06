@@ -1,11 +1,15 @@
 public class UserClass{
 	
+	String name;
+	int age;
+	int idcard;
+	
 	static int count = 0;
 	
-	UserClass(String na, int ag,int id){
-		this.name = na;
-		this.age = ag;
-		this.idCard = id;
-		count += 1;
+	UserClass(String name, int age,int idcard){
+		this.name = name;
+		this.age = age;
+		this.idcard = idcard;
+		UserClass.count += 1;
 	}
 }
