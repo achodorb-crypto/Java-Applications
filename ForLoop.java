@@ -1,8 +1,8 @@
 public class ForLoop{
-     public static void main(String[] args){
-     for(int i = 1; i <=99; i++){
-      System.out.println("This is an odd number");
-      }
-     }
+	public static void main(String[] args){
+		for(int i = 10; i >=1; i--){
+			System.out.printf("%d",i);
+			
+		}
+	}
 }
-

@@ -3,15 +3,15 @@ public class DoWhileLoop{
 		int i = 1;
 		
 		do{
-		    System.out.println("This is a post test loop");
+			System.out.println("This is a post test loop");
 			i++;
 		}while(i <= 0);
 		
 		i = 1;
-		
-		
+		while(i <= 0){
+			System.out.println("This is a post test loop");
+			i++;
 			
+		}
 	}
-}	
-	
-		 
+}
