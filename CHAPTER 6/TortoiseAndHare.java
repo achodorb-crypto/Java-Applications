@@ -31,10 +31,10 @@ public class TortoiseAndHare {
                 System.out.println("It's a tie.");
                 break;
             } else if (tortoisePosition >= COURSE_LENGTH) {
-                System.out.println("TORTOISE WINS!!! YAY!!!");
+                System.out.println("TORTOISE WINS!!! God is so proud!!!");
                 break;
             } else if (harePosition >= COURSE_LENGTH) {
-                System.out.println("Hare wins. Yuch.");
+                System.out.println("Hare wins. You are a disciple of Christ but don't forget to be nice.");
                 break;
             }
         }

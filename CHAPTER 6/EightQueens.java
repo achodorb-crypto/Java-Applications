@@ -22,6 +22,7 @@ public class EightQueens {
             }
             i1--;
             j1--;
+			
         }
 
         int i2 = row - 1;
